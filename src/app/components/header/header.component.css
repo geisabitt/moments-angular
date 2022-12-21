@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #777;
+}
+
+/* alinhando os icones e os links da nav bar tanto verticalmente quanto horizontalmente*/
+.brand,
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand img {
+  width: 40px;
+  margin-right: 0.6em;
+}
+.brand h2{
+    transition: 0.6s;
+}
+.brand:hover > h2{
+    color: #dec129;
+}
